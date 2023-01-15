@@ -15,7 +15,7 @@
         <PackageLicenseUrl>MIT</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/ChukwumaA/Task-5/tree/main/NugetPackage</RepositoryUrl>
         <RepositoryType>Public</RepositoryType>
-        <Version>2.0.0</Version>
+        <Version>3.0.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
