@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>bezao.tasks5.nugetpackage</PackageId>
+        <Title>Sum|Multipy|Print</Title>
+        <Authors>Bezao Intern</Authors>
+        <Description>A library that logs numerical digits and perform Addition, Subtraction, Division and Multiplication operations only.</Description>
+        <Copyright>MIT</Copyright>
+        <PackageIcon>url.png</PackageIcon>
+        <PackageTags>Addition, Subtraction, Multiplication, Division, Logging, logger, integers</PackageTags>
+        <PackageReleaseNotes>This is a response to a class task. I'm looking for feedback.</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="url.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
