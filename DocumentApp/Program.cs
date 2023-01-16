@@ -1,0 +1,3 @@
+﻿using DocumentApp;
+
+Application.GetStarted();
