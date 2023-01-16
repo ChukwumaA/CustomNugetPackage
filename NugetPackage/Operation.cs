@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NugetPackage
+﻿namespace NugetPackage
 {
     public class Operation
     {
