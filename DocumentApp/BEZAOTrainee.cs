@@ -3,10 +3,11 @@
 namespace DocumentApp;
 
 [Document("A Software Engineering Trainee")]
-class BEZAOTrainee
+internal class BEZAOTrainee
 {
-    [Document("This initialises the Bezao Trainee with a full name", Input = "It takes the " +
-                                                                             "fullname as string")]
+    [Document("This initialises the Bezao Trainee with a full name", 
+        Input = "It takes the fullname as string")]
+    
     BEZAOTrainee(string fullname)
     {
         FullName = fullname;
@@ -32,24 +33,24 @@ class BEZAOTrainee
     {
         
     }
+}
 
-    [Document("A Software Engineering Training Program")]
-    class BEZAO
+[Document("A Software Engineering Training Program")]
+internal class BEZAO
+{
+    [Document("This initialises BEZAO with a cohort",
+        Input = "It takes a cohort as string")]
+    void BEZAOTrainee(string cohort)
     {
-        [Document("This initialises BEZAO with a cohort", 
-            Input = "It takes a cohort as string")]
-        void BEZAOTrainee(string cohort)
-        {
-            Cohort = cohort;
-        }
-
-        [Document("This sets and gets the BEZAO Cohort")]
-        private string Cohort {get; set;}
+        Cohort = cohort;
     }
+
+    [Document("This sets and gets the BEZAO Cohort")]
+    private string Cohort { get; set; }
 }
 
 [Document("These are what trainee screams")]
-enum Scream
+internal enum Scream
 {
     Omo, 
     HeyGod,

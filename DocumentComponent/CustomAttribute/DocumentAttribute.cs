@@ -4,7 +4,7 @@ namespace DocumentComponent.CustomAttribute
 {
     [AttributeUsage(AttributeTargets.All)]
     
-    public sealed class DocumentAttribute : Attribute
+    public  class DocumentAttribute : Attribute
     {
         public readonly string Description;
         public string Input;
@@ -13,23 +13,10 @@ namespace DocumentComponent.CustomAttribute
         public DocumentAttribute(string description)
         {
             Description = description;
-            Input = "";
-            Output = "";
+            Input = string.Empty;
+            Output = string.Empty;
         }
         
-        public string Describe => Description;
-
-        public string In
-        {
-            get => Input;
-            set => Input = value;
-        }
-
-        public string Out
-        {
-            get => Output;
-            set => Output = value;
-        }
     }
     
 }
