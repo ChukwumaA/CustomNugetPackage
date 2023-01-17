@@ -4,12 +4,12 @@ using DocumentComponent.CustomAttribute;
 
 namespace DocumentComponent
 {
-    public static class Validation
+    public class Validation
     {
-        public static void GetDocs()
+        public void GetDocs()
         {
-            Assembly assembly = Assembly.GetExecutingAssembly();
-            Type[] types = assembly.GetTypes();
+            var assembly = Assembly.GetExecutingAssembly();
+            var types = assembly.GetTypes();
 
             foreach (var type in types)
             {
@@ -24,6 +24,7 @@ namespace DocumentComponent
                     Console.WriteLine("Output: " + attribute.Output);
                 }
             }
+
         }
     }
 }

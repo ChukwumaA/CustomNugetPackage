@@ -5,7 +5,13 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="DocumentComponent">
+        <HintPath>..\DocumentComponent\bin\Debug\netstandard2.0\DocumentComponent.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 
 </Project>

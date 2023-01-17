@@ -1,3 +1,1 @@
-﻿using DocumentApp;
-
-Application.GetStarted();
+﻿
