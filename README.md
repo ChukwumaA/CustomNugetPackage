@@ -10,7 +10,7 @@ Import the using statement as such
 
 ### YourClass yourClass = new YourClass();
 
-y### ourClass.YourMethod();
+### yourClass.YourMethod();
 
 This package can only accept integers data types as arguments and only display integer data types in the console window.
 
