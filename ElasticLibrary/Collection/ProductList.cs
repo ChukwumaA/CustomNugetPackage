@@ -3,7 +3,7 @@ using ElasticLibrary.Models;
 
 namespace ElasticLibrary.Collection
 {
-    public class ProductList
+    public static class ProductList
     {
         public static IList<Products> ProductSpecifications { get; } = new List<Products>()
         {

@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ElasticLibrary.Controllers;
 
-Console.WriteLine("Hello, World!");
+Application.ProductInfo();
