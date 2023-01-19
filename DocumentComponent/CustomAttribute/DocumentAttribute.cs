@@ -10,12 +10,13 @@ namespace DocumentComponent.CustomAttribute
         public string Input;
         public string Output;
         
-        public DocumentAttribute(string description)
+        public DocumentAttribute(string description, string input ="", string output ="") 
         {
             Description = description;
-            Input = string.Empty;
-            Output = string.Empty;
+            Input = input;
+            Output = output;
         }
+        
         
     }
     

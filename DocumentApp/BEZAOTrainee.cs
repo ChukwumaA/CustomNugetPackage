@@ -6,7 +6,7 @@ namespace DocumentApp;
 internal class BEZAOTrainee
 {
     [Document("This initialises the Bezao Trainee with a full name", 
-        Input = "It takes the fullname as string")]
+         "It takes the fullname as string")]
     
     BEZAOTrainee(string fullname)
     {
@@ -21,14 +21,14 @@ internal class BEZAOTrainee
     public string Age { get; set; }
     
     [Document("This Makes the Trainee quiet when something strange happens", 
-        Input = "It takes in an someThingsStrange as an object")]
+         "It takes in an someThingsStrange as an object")]
     internal void SomethingStrangeCode(object someThingStrange)
     {
         
     }
     
     [Document("This Makes the Trainee Code when an idea comes", 
-        Input = "It takes in an someThingsStrange as an object", Output = "It returns an object")]
+         "It takes in an someThingsStrange as an object",  "It returns an object")]
     internal void QuietCode(object someThingStrange)
     {
         
