@@ -2,7 +2,7 @@
 Application of all things learnt.
 
 
-###This is a class library that can perform addition, subtraction, multiplication division and accepts any number and logs it to the console.
+## This is a class library that can perform addition, subtraction, multiplication division and accepts any number and logs it to the console.
 
 How to use this Nuget Package
 
@@ -10,7 +10,7 @@ Install the nugetpackage using the dotnet cli command: or using the nuget packag
 
 Import the using statement as such  ##"using NugetPackage;"
 
-``YourClass yourClass = new YourClass();
+`` YourClass yourClass = new YourClass();
 
 yourClass.YourMethod();``
 
@@ -19,8 +19,8 @@ This package can only accept integers data types as arguments and only display i
 You can perform any of the stated operations using the class calls above.
 
 Example 
-``
-        Operation op = new Operation();
+
+      ``Operation op = new Operation();
   
         Console.WriteLine(op.Addition(10, 20));
 
@@ -32,6 +32,4 @@ Example
 
         Console.WriteLine(op.PrintNumbers(254574545));
 
-        Console.ReadLine();
-        
-        ``
+        Console.ReadLine();``
