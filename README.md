@@ -1,18 +1,16 @@
-# Task-5
-Application of all things learnt.
-
-
 ## This is a class library that can perform addition, subtraction, multiplication division and accepts any number and logs it to the console.
 
 How to use this Nuget Package
 
 Install the nugetpackage using the dotnet cli command: or using the nuget package manager in your IDE.
 
-Import the using statement as such  ##"using NugetPackage;"
+Import the using statement as such  
 
-**YourClass yourClass = new YourClass();
+### "using NugetPackage;"
 
-**yourClass.YourMethod();
+### YourClass yourClass = new YourClass();
+
+y### ourClass.YourMethod();
 
 This package can only accept integers data types as arguments and only display integer data types in the console window.
 
