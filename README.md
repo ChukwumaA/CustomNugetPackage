@@ -10,9 +10,9 @@ Install the nugetpackage using the dotnet cli command: or using the nuget packag
 
 Import the using statement as such  ##"using NugetPackage;"
 
-``YourClass yourClass = new YourClass();
+**YourClass yourClass = new YourClass();
 
-yourClass.YourMethod();``
+**yourClass.YourMethod();
 
 This package can only accept integers data types as arguments and only display integer data types in the console window.
 
@@ -20,7 +20,7 @@ You can perform any of the stated operations using the class calls above.
 
 Example 
 
-      ``Operation op = new Operation();
+        Operation op = new Operation();
   
         Console.WriteLine(op.Addition(10, 20));
 
@@ -32,4 +32,4 @@ Example
 
         Console.WriteLine(op.PrintNumbers(254574545));
 
-        Console.ReadLine();``
+        Console.ReadLine();
