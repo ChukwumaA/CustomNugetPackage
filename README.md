@@ -10,7 +10,7 @@ Install the nugetpackage using the dotnet cli command: or using the nuget packag
 
 Import the using statement as such  ##"using NugetPackage;"
 
-`` YourClass yourClass = new YourClass();
+``YourClass yourClass = new YourClass();
 
 yourClass.YourMethod();``
 
